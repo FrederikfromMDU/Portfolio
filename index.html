@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frederik Toft Nielsen´s Portfolie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae505836f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div id="logo">
+                <img src="images/Logo2.png" alt="logo"/>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Om mig</a></li>
+                    <li><a href="#portfolio">Projekter</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <h1>Frederik Toft Nielsen</h1>
+                <p> <span>Multimediedesigner</span></p>
+            </div>
+            </div>
+            <div id="sec-1">
+                <div class="contai">
+                  <a href="#about">
+                    <div class="scroll-down"></div>
+                  </a>
+                </div>
+           </div>
+        </div>
+ 
+
+
+<section class="about-section">
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="slider">
+                    <div class="slides">
+                        <!--Radio buttons start-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">   
+                        <input type="radio" name="radio-btn" id="radio3">   
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <!--Radio buttons end-->
+                        <!--Slide images start-->
+                        <div class="slide first">
+                            <img src="images/billede 1.png" alt="">
+                        </div>      
+                        <div class="slide">
+                            <img src="images/billede 2.png" alt="">
+            
+                        </div>
+                        <div class="slide">
+                            <img src="images/billede 3.png" alt="">
+            
+                        </div>
+                        <div class="slide">
+                            <img src="images/billede 4.png" alt="">
+                        </div>
+                        <!--Slide images end-->      
+                        
+                    </div>
+                    <!--manual navigation start-->
+                    
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>           
+                    </div>
+                    
+                </div>  
+                <div class="about-col-2">
+                    <h1 class="stub-title">Om Mig</h1>
+                    <p>Så, du er endt her på mit portfolio. Enten er du faret vild i cyberspace, eller også er du her med vilje. Uanset hvad, så er jeg glad for at have dig her! <br>
+                    <br> Jeg går under navnet Frederik Toft Nielsen. Jeg er 21 år gammel, og jeg er ved at uddanne mig til multimediedesigner på Erhvervsakademi Aarhus.  Jeg befinder mig lige nu på 3. semester, hvor jeg har stor interesse inden for UX/UI og Frontend kodning. <br>
+                    <br>Jeg brænder virkelig for frontend-kodning og UX/UI-design! At arbejde med disse områder er ikke blot en jobopgave for mig - det er min passion. Jeg elsker at skabe intuitive og brugervenlige interfaces, der ikke kun ser fantastiske ud, men også giver brugerne en problemfri oplevelse.
+                    <br>Jeg tror på kraften i godt design for at forbedre brugeroplevelsen. Jeg elsker at tackle udfordringerne ved frontend-udvikling og UX/UI-design og stræber altid efter at lære og holde mig opdateret med de nyeste trends og teknologier.
+                    </p>
+                    <br>
+                    <p>Puha, det var en seriøs datasmæk! Men hey, jeg har lidt mere kød på mine personlige interesser.
+                    <br>
+                    <br>
+                        Jeg er virkelig passioneret omkring film, så meget, at jeg faktisk anmelder dem! Det har udviklet sig til en del af min vennegruppes rutine, hvor vi deler vores tanker og kommentarer på platformen Letterboxd. Dog må jeg indrømme, at min entusiasme for film nogle gange kan være lidt for meget for nogle mennesker. Det er en af de ting, der virkelig kan komme bag på folk, når de opdager, hvor meget jeg går op i det.
+                    </p>
+
+                        <a href="#contact" class="btn">Er vi et match? kontakt mig!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="programmer-jeg-bruger">
+    <div class="container">
+            <h1 class="stub-title">Programmer jeg bruger</h1>
+        <ul class="Programmer">
+        
+            <li><img src="images/Figma.png" alt="Figma logo"><h3>Figma</h3></li>
+            <li><img src="images/visual.png" alt="Visual Studio Code logo"><h3>Html, CSS & JS</h3></li>
+            <li><img src="images/adobe.png" alt="Adobe logo"><h3>Adobe Creative <br> Cloud</h3></li>
+        </ul>
+    </div>
+</section>
+
+<section class="kort-section">
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="stub-title">Mine Projekter</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/billede 2semesterdbh.png">
+                        <div class="layer">
+                            <h3>2. semester eksamen - DavidBreadHead</h3>
+                            <p>DavidBreadHead er en virksomhed som har beliggenhed i Aarhus, et bageri med fokuspunkt på surdej.<br>
+                                <br>
+                                Vi stod over for en udfordring: at forvandle siden til en magnetisk destination, der ville fange besøgendes opmærksomhed og skabe en flydende brugeroplevelse.
+                                <br>
+                                <br>
+                                Jeg var drivkraften på at forvandle brugeroplevelsen og programmering</p>
+                            <a href="http://dbheksamen.ftn.dk/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/billede 1semester.png">
+                        <div class="layer">
+                            <h3>1. semester eksamen - Viby j naturområder</h3>
+                            <p>
+                                Denne opgave var som at være en virtuel guide gennem en by  med 3 skjulte områder man kunne besøg i Viby.<br>
+                                <br> Mit mål var ikke blot at fange besøgendes opmærksomhed, men også at fortrylle dem med spændende information om områderene, som selv de mest erfarne lokalbefolkninger måske ikke har opdaget endnu.
+                                <br>
+                                <br>Jeg var drivkraften på UX/UI, Design og programmering</p>
+                            <a href="http://vibyjeksamen.ftn.dk/"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/billede 2semesterprojekt.png">
+                        <div class="layer">
+                            <h3>2. semester projekt - Nippon</h3>
+                            <p>Træd ind i den Nippons verden - et fiktiv og banebrydende koncept i måltidskassebranchen.
+                                <br>
+                                <br>
+                                Opgaven gik ud på hvordan vi som gruppe kan skabe et nyt firma på market, der kan konkurre med de nuværende på market og skille sig ud.
+                                <br>
+                                <br>
+                                Jeg var drivkraften på UX og Design.
+                            </p>
+                            <a href="http://nippon2semprojekt.ftn.dk/index.html"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/FrederikfromMDU" class="btn">Se flere Projekter</a>
+            </div>
+        </div>
+
+
+<section class="cvtimeline">
+    <div class="timeline">
+        <div class="contain left-contain">
+            <img src="images/mcdlogo1.png" alt="">
+            <div class="text-box2">
+                <h2>McDonald's.</h2>
+                <small>2023-</small>
+                <p>Lige nu befinder jeg mig hos Mcdonalds: Viby j ved Mega syd, hvor jeg er deltidsmedarbejder.</p>
+                <span class="left-contain-arrow"></span>
+            </div>
+        </div>
+
+  
+        <div class="contain right-contain">
+            <img src="images/erhversakadimet.png" alt="">
+            <div class="text-box2">
+                <h2>Multimediedesigner</h2>
+                <small>2023-2025</small>
+                <p>jeg studere lige nu som Multimediedesigner hos Erhversakadimet Aarhus.</p>
+                <span class="right-contain-arrow"></span>
+            </div>
+        </div>
+
+
+        <div class="contain left-contain">
+            <img src="images/kaffekaplsen.png" alt="">
+            <div class="text-box2">
+                <h2>Kaffekaplsen.</h2>
+                <small>2023-2023</small>
+                <p>Et lagerarbejde, hvor jeg skulle pakke hurtigt og effektivt.</p>
+                <span class="left-contain-arrow"></span>
+            </div>
+        </div>
+
+  
+            <div class="contain right-contain">
+                <img src="images/hotelhorisont.png" alt="">
+                <div class="text-box2">
+                    <h2>Hotel Horisont.</h2>
+                    <small>2022-2023</small>
+                    <p>Jeg skulle stå for rengøring og opstilling af konferencelokaler og opholdsområder, Servicering af henvendelser i receptionen, telefonpasning og lukkerunder </p>
+                    <span class="right-contain-arrow"></span>
+                </div>
+            </div>
+
+            <div class="contain left-contain">
+                <img src="images/eux og eud.png" alt="">
+                <div class="text-box2">
+                    <h2>EUX Handel.</h2>
+                    <small>2020-2022</small>
+                    <p></p>
+                    <span class="left-contain-arrow"></span>
+                </div>
+            </div>
+
+            <div class="contain right-contain">
+                <img src="images/eux og eud.png" alt="">
+                <div class="text-box2">
+                    <h2>EUD handel.</h2>
+                    <small>2019-2020</small>
+                    <p></p>
+                    <span class="right-contain-arrow"></span>
+                </div>
+            </div> 
+    </div>
+</section>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="stub-title">Kontakt mig</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> frederik22toft@hotmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +45 30 60 32 11</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/frederik.toftnielsen.9/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/frederik_toft_nielsen/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/FrederikfromMDU"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/frederik-toft-nielsen-57a993257/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Frederik Toft Nielsen - CV (2).pdf" download class="btn btn2">Download CV</a>
+           
+            
+            </div>
+            <div class="contact-right">
+                <img src="images/kontaktbillede.png" alt="">
+            </div>
+
+    </div>
+
+</div>
+
+<div class="copyright">
+    <p>Copyright @ Frederik. Made by <i class="fa-solid fa-heart"></i> Frederik Toft Nielsen</p>
+</div>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+
+</html>
